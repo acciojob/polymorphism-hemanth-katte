@@ -23,10 +23,12 @@ public class Main {
         int z = 11;
         double a = 954562352;
         double b = 984562;
-        p.product(x,y);
-        p.product(x,y,z);
-        p.product(a,b);
-        //System.out.println(ans);
+        int res1 = p.product(x,y);
+        int res2 = p.product(x,y,z);
+        double res3 = p.product(a,b);
+        System.out.println(res1);
+        System.out.println(res2);
+        System.out.println(res3);
 
 
 
